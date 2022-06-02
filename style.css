@@ -1,0 +1,653 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&family=Rubik:wght@300;400;600;700&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+}
+/* header */
+
+header{
+    background-image: url(./images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ header::after{
+    content: '';
+   
+    
+} 
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between ;
+    
+    position: relative;
+}
+
+.header-content{
+    text-align: center;
+    padding-inline: 20%;
+    padding-top: 4%;
+
+}
+
+a{
+    color: white;
+}
+
+h1{
+    font-size: clamp(2rem, 10.7vw - 2.7rem 4rem);
+    color: #1ce789 ;
+}
+
+.p1{
+    font-size: clamp(1.5rem, 8vw - 2rem, 3rem);
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.p2{
+    font-size: clamp(1rem, 5.3vw - 1.3rem, 2rem);
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.button2{
+    font-size: 1rem;
+    width: 100%;
+    padding-block: 1rem;
+}
+
+.p3{
+    font-size: 0.84rem;
+    font-weight: 400px;
+    line-height: 1.46;
+    
+    margin-top: 1rem;
+    padding-inline: 5rem;
+    color: white;
+}
+
+.p4{
+    text-align: center;
+    color: #1ce789;
+    
+}
+.p5{
+    text-align: center;
+    font-weight: 200;
+     color: white;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+.header-details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding-inline: 8%;
+    padding-block: 1rem;
+    background: linear-gradient(179.81deg, rgba(4,4,4,0.7) .17%, rgba(4,4,4,0.45) 85.02%, rgba(4,4,4,0.3) 112.52%);
+}
+
+.bundle{
+    font-size: 1rem;
+    text-align: center;
+    color: #1ce789 ;
+}
+
+.subscribe1{
+    margin-top: 1rem;
+    color: white;
+}
+
+.download{
+    font-size: 2rem;
+}
+
+.download-all{
+    display: none;
+}
+
+.subscribe1 div{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.subscribe2{
+    margin-top: 2rem;
+}
+
+.subscribe2 button{
+    width: 15rem;
+    padding-block: 1rem;
+}
+
+.subscribe2 div{
+    text-align: center;
+}
+
+
+.hulu-logo{
+    margin-top: 1rem;
+}
+.log-in{
+    margin-right: 3rem;
+    margin-top: 2rem;
+    font-family: sans-serif;   
+    text-decoration: none;
+    color: rgba(255, 254, 254, 0.514);
+}
+
+.log-in:hover{
+    padding-block: 1rem;
+    padding-inline: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+   color: #fff;
+   font-weight: bold;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   border: 1px solid #323843;
+   background-color:  #323843; 
+   border-radius: 0.5rem;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity:0.8 ;
+
+}
+.logo1{
+    display: none;
+}
+
+/* section1 */
+
+.section1{
+    padding-block: 4rem;
+    background-color: #0b0c0f;
+}
+
+.section-sub{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:1rem;
+    margin-block: 5rem;
+   
+    
+}
+
+.section-sub > div{
+    position: relative;
+    height: 450px;
+    width: 290px;
+    
+}
+.text-in-img{
+    position: absolute;
+    top: 10px;
+    margin-left: 1.5rem;
+    color: white;
+    
+}
+h3, h4, h5, h6{
+    margin-bottom: 0;
+    
+}
+.p6, .p7, .p8, .p9{
+    margin-top: 5px;
+}
+.p10{
+    
+   text-align: left;
+   font-size: 0.65rem;
+   color: white;
+  
+ 
+    
+    
+}
+.live{
+    text-align: center;
+    color: #1ce789;
+    font-size: clamp(1rem, 0vw + 1rem, 1rem);
+    
+}
+.live1{
+    font-size: clamp(1.5rem, 8vw - 2rem, 3rem);
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+.live2{
+    text-align: center;
+    color: white;
+    font-size: clamp(1rem, 0vw + 1rem, 1rem);
+    padding-inline: 18rem;
+    
+}
+.live3{
+    text-align: center;
+    color: white;
+    font-size: 0.7rem;
+    padding-inline: 18rem;
+    margin-top: 1rem;
+}
+.view{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+
+}
+.fa-solid{
+    display: inline-block;
+    position: relative;
+    -moz-animation: bounce 0.7s infinite linear;
+    -o-animation: bounce 0.7s infinite linear;
+    -webkit-animation: bounce 0.7s infinite linear;
+    animation: bounce 0.7s infinite linear;
+  }
+  .icon {
+      color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    
+  }
+  
+  @-webkit-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-moz-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-o-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-ms-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+
+  .section-sub2{
+      padding-block:5rem;
+  }
+
+  /* section2 */
+
+  .live-sports-logos{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 30px;
+      padding-block: 1rem;
+      
+      
+      
+
+  }
+  .live-sports-logos > div{
+      background-image: url(./images/network-logo-bg.png) ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 60px ;
+      width: 60px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center; 
+      justify-content: center; 
+   
+  }
+
+  .live-sports-logos > div img{
+      width: 40px;
+  }
+  .p11{
+      font-size: 1.2rem;
+      margin-top: 0;
+      
+  }
+  .p12{
+      font-size: 0.9rem;
+  }
+  .h2{
+    font-size: clamp(1.5rem, 8vw - 2rem, 3rem);
+      text-align: start;
+      margin-bottom: 0;
+      
+  }
+  .desktop-img{
+      background-image: url(./images/live-sports.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 800px;
+    
+  }
+  .section2{
+      position: relative;
+  }
+  .live-sports-content{
+      position: absolute;
+      top: 90px;
+      left: 100px;
+      max-width: 550px;
+      padding-block: 10rem;
+      color: white;
+      
+      
+  }
+
+  /* footer */
+footer{
+    background-color: #e8eaed;
+    
+}
+  .footer-content{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      gap: 60px;
+      padding-block: 2rem;
+      padding-inline: 5rem;
+      color: #616060;
+  }
+
+  .footer-br{
+      border-top: 1px solid #616060;
+      margin-inline: 7rem;
+
+  }
+  ul{
+      font-size: 15px;
+
+  }
+
+  li{
+      list-style: none;
+      margin-top: 0;
+
+  }
+  li > a{
+    font-size: 10px;
+    color: #616060;
+    text-decoration: none;
+  
+  }
+  .footer-head{
+      margin-inline: 2.3rem;
+      margin-bottom: -1rem;
+
+  }
+  .footer-list{
+      display: flex;
+      flex-wrap: wrap;
+      gap:50px;
+      
+  }
+
+  .footer-media{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 1rem;
+      margin-inline: 7rem;
+      color:#616060 ;
+      padding-block: 1rem;
+  }
+    
+  .footer-details{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+     
+      margin-inline: 7rem;
+      padding-block: 2rem;
+    
+      
+  }
+  .footer-details a{
+      text-decoration: none;
+      font-size: 10px;
+      color: #616060;
+
+  }
+  /* modal-box */
+  .modal-box{
+      display: none;
+    background-color: #fff;
+    height: 600px;
+    width: 400px;
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding-block: 4rem;
+    padding-inline: 23rem;
+}
+.modal-content{
+    width: 400px;
+   align-content: center;
+    background-color: white;
+    animation: modalopen 2s;
+
+}
+    @keyframes modalopen{
+        from {
+            opacity: 0;
+        }
+        t0 {
+            opacity: 1;
+        }
+    }
+
+  .modal-h1{
+      padding-bottom:1rem ;
+      font-size: 2rem;
+     padding-inline: 3rem;
+     font-weight: 100;
+     color: black;
+  }
+  form{
+    padding-inline: 3rem;
+    padding-block: 1rem;
+  }
+  form div{
+      padding-block: 1rem;
+    position: relative;
+  
+    
+  }
+ 
+ 
+  input{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #272c35;
+    border-radius: 10px;
+    
+  }
+  .modal-button{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-block: 1rem; 
+    color:  white;
+    background-color: #828282;
+    
+  }
+
+  label{
+      position: absolute;
+      top: 0px;
+      font-size: 15px;
+      line-height: 10px;
+      color:#936ea3 ;
+      
+  }
+  
+  .password-reset a{
+      font-size: 12px;
+      color:#176ee5 ;
+      text-decoration: none;
+  }
+  .register{
+      font-size: 15px;
+      color: #936ea3;
+      margin-block: rem;
+  }
+  .register a{
+      color: #176ee5;
+      text-decoration: none;
+  }
+  .close-btn{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: end;
+      padding: 1rem;
+     
+  }
+   
+
+
+
+  @media (max-width: 1100px) {
+    .section-sub{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        place-items: center;
+    }
+  
+        
+        
+}
+
+
+@media (max-width: 700px){
+    .p3{
+      padding-inline: 0;  
+    }
+
+    .header-details{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    .download{
+        display: none;
+    }
+    .download-all{
+        display: block;
+        order: 2;
+    }
+
+    
+
+    .logo2{
+        display: none;
+        
+    }
+    .logo1{
+        display: block;
+        order: 1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center ;
+    }
+    .subscribe2{
+        order: 2;
+        margin-top: 3rem;
+        
+    }
+    .subscribe2 button{
+        width: 100%;
+    }
+    .subscribe1{
+               font-size: 0.8rem;
+   
+    }
+    .section-sub{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        place-items: center;
+        padding-inline: 0;
+    }
+    .section-sub > div {
+    width: 294px;
+    height: 450px;
+    }
+   
+    .live3, .live2{
+        padding-inline: 0;
+        padding-inline: 1rem;
+        
+    }
+/* section2 */
+  
+    .desktop-img{
+        background-image: url(./images/live-sports-small\ 666.jpg) ;  
+        height: 1140px;
+        
+        
+        
+        
+        
+    }
+    
+    .live-sports-content{
+     top: 30;
+     left: 30px;
+    
+    }
+
+    /* modal */
+    .modal-box{
+        padding-inline: 0rem;
+        padding-inline: 2rem;
+        
+    }
+    .modal-content {
+        max-width: 350px;
+        height: 500px;
+
+    }
+
+    .modal-button, input {
+        width: 250px;
+    }
+
+        
+}
+
+
